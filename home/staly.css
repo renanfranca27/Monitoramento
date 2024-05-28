@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 10px;
+    color: rgb(10, 10, 10);
+}
+header{
+display: flex;
+justify-content: center;
+font-family: "Oswald", sans-serif;
+font-size: 3rem;
+}
+main{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+
+}
+.servidor{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vh;
+    height: 100px;
+    background:rgb(124, 115, 115);
+    border-radius: 10px;
+
+}
+.internet{ 
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vh;
+    height: 100px;
+    background:rgb(128, 34, 34);
+    border-radius: 10px;
+}
+.farewall{
+
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vh;
+    height: 100px;
+    background:rgb(87, 33, 33);
+    border-radius: 10px;
+}
+
+.Q-internet{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vh;
+    height: 100px;
+    background:rgb(87, 33, 33);
+    border-radius: 10px;
+}
